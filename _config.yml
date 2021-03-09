@@ -52,7 +52,7 @@ metadata: demo-metadata
 #     filter: 'objectid'  
 
 # If using local folder, dir name with proceeding slash. If using external web location, provide full URL
-objects: https://webpages.uidaho.edu/library/spec/objects/hiroshima
+objects: https://lib.uidaho.edu/digital/objects/idahobib
 
 ##########
 # GOOGLE SERVICES [optional!]
