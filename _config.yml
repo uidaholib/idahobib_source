@@ -10,9 +10,11 @@
 # site domain, full URL to the production location of your collection
 url: https://www.lib.uidaho.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /digital/idahobibi
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
+source-code: https://github.com/uidaholib/idahobib_source
+# shared assets
+digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
 # SITE SETTINGS
@@ -48,6 +50,9 @@ metadata: demo-metadata
 #     dir: 'items'
 #     extension: 'html' 
 #     filter: 'objectid'  
+
+# If using local folder, dir name with proceeding slash. If using external web location, provide full URL
+objects: https://webpages.uidaho.edu/library/spec/objects/hiroshima
 
 ##########
 # GOOGLE SERVICES [optional!]
