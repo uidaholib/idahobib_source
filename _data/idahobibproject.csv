@@ -1,4 +1,4 @@
-objectid,filename.jpg,youtubeid,title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement
+objectid,filename,youtubeid,title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement
 coll001,ibp001.jpg,,Peter Skene Ogden: Fur trader,"Binns, A.",1967-01-01,,Fur Trapping,Ada County,43.4788,-116.242,"PG 9, Postcard Collection, University of Idaho Library Special Collections and Archives",pg_9_12_01bl,Image;StillImage,image/jpeg,eng,Public domain,http://rightsstatements.org/vocab/NoC-US/1.0/
 coll002,ibp002.jpg,,"River of beaver, stream of gold","Carney, E.",1994,,Fur Trapping,Ada County,43.4788,-116.242,,,,,,,
 coll003,ibp003.jpg,,Peter Skene Ogden and the Hudson's Bay Company,"Cline, G. G.",1974,,Fur Trapping,Ada County,43.4788,-116.242,,,,,,,
