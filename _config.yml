@@ -10,9 +10,11 @@
 # site domain, full URL to the production location of your collection
 url: https://www.lib.uidaho.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /digital/idahobib
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
+source-code: https://github.com/uidaholib/idahobib_source
+# shared assets
+digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
 # SITE SETTINGS
@@ -38,7 +40,8 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: idahobibproject.csv
+metadata: idahobibproject
+
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -48,6 +51,9 @@ metadata: idahobibproject.csv
 #     dir: 'items'
 #     extension: 'html' 
 #     filter: 'objectid'  
+
+# If using local folder, dir name with proceeding slash. If using external web location, provide full URL
+objects: https://lib.uidaho.edu/digital/objects/idahobib
 
 ##########
 # GOOGLE SERVICES [optional!]
