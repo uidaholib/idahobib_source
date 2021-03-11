@@ -31,10 +31,10 @@ keywords: idaho;history;inland northwest;bibliography;books;local
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Robert Perret
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+organization-name: "University of Idaho Library Special Collections and Archives"
+organization-link: https://www.lib.uidaho.edu/special-collections/
+organization-logo-banner: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
+organization-logo-nav: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
 
 ##########
 # COLLECTION SETTINGS
