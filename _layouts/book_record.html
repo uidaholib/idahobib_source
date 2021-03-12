@@ -6,37 +6,48 @@ item-meta: true
 
     {% include item/breadcrumbs.html %}
 
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-md-6">
             <div class="card mb-4 text-center">
                 <div class="m-2">
                     <p>
-                        {% include item/item-thumb.html %}
+                        {% if page.object_download or page.image_small %}
+                        <img class="img-fluid" src="{{ page.object_download | default: page.image_small | relative_url }}" alt="{{ page.title | escape }} (book cover)">
+                        {% else %}
+                        <img class="img-fluid" src="https://lib.uidaho.edu/digital/objects/idahobib/ibp000.jpg" alt="no cover image available">
+                        {% endif %}
                     </p>
-                </div>
-                
-                <div class="my-2">
-
-                    {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
-                    <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" class="ml-2 btn btn-outline-info">View on Timeline</a>{% endif %}
-                    {% if page.latitude and page.longitude %}
-                    <a href="{{ '/map.html#' | append: page.latitude  | append: ',' | append: page.longitude | relative_url}}" class="ml-2 btn btn-outline-info">View on Map</a>{% endif %}
-
                 </div>
 
             </div>
         </div>
 
         <div class="col-md-6">
+            <h1>{{ page.title }}</h1>
+            <div class="h2">by {{ page.creator }} ({{ page.date }})</div>
 
-            {% include item/metadata.html %}
+            <div class="my-4">
+
+                {% if page.location %}{% assign locs = page.location | split: ";" %}
+                {% for l in locs %}
+                <a class="btn btn-outline-success m-3" href="{{ '/browse.html' | relative_url }}#{{ l }}">{{ l }}</a><br>
+                {% endfor %}
+                {% endif %}
+                {% if page.subject %}{% assign subs = page.subject | split: ";" %}
+                {% for s in subs %}
+                <a class="btn btn-outline-success m-3" href="{{ '/browse.html' | relative_url }}#{{ s }}">{{ s }}</a><br>
+                {% endfor %}
+                {% endif %}
+
+                {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
+                <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" class="m-3 btn btn-outline-info">View on Timeline</a><br>{% endif %}
+                {% if page.latitude and page.longitude %}
+                <a href="{{ '/map.html#' | append: page.latitude  | append: ',' | append: page.longitude | relative_url }}" class="m-3 btn btn-outline-info">View on Map</a>{% endif %}
+
+            </div>
             
-        </div>
-    </div>
 
-    <div class="row justify-content-end mt-4">
-        <div class="col-md-5">
-            {% include item/citation-box.html %}
+            
         </div>
     </div>
 

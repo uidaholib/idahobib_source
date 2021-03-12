@@ -1,10 +1,9 @@
 field,display_name,browse_link,dc_map,schema_map
-title,Title,,DCTERMS.title,headline
-creator,Author,,DCTERMS.creator,creator
-date,Date,,DCTERMS.created,dateCreated
-description,Description,,DCTERMS.description,description
-subject,Subjects,true,DCTERMS.subject,keywords
+title,,,DCTERMS.title,headline
+creator,,,DCTERMS.creator,creator
+date,,,DCTERMS.created,dateCreated
 location,Location,true,,contentLocation
+subject,Subjects,true,DCTERMS.subject,keywords
 source,Source
 identifier,Source Identifier
-type,Type,,DCTERMS.type
+type,,,DCTERMS.type
