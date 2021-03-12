@@ -2,11 +2,14 @@
 title: About
 layout: about
 permalink: /about.html
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About the Idaho Bibliography Project
+# About the Idaho Bibliography Project
+
+<p class="text-center h3 mb-3"><em>{{ site.tagline }}</em></p>
 
 The Idaho Bibliography Project was created with the assistance of the John Calhoun Smith Grant to support Idaho History Day. 
 
@@ -16,3 +19,5 @@ Many are not cataloged anywhere else!
 Did he miss your favorite nonfiction book? 
 Email <rperret@uidaho.edu> to let him know! 
 He is happy to add new books or update the list.
+
+{% include feature/item-figure.html objectid="ibp1494" %}
