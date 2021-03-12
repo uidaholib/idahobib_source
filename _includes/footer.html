@@ -1,8 +1,8 @@
 <footer class="bg-dark pt-4 container-fluid {% unless page.layout=='map' %}mt-3{% endunless %}">
 
-    <div class="row border-bottom border-white pb-4 mb-2">
+    <div class="row border-bottom border-white pb-4 mb-2 mx-3">
 
-        <div class="col-md-7  px-4 mt-2">
+        <div class="col-md-8 mt-2 mb-4">
 
             <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
             <p class="text-white"><small>{{ site.description }}</small></p>
@@ -24,11 +24,11 @@
 
         </div>
 
-        <div class="col-md-5 mt-2 text-right">
+        <div class="col-md-4 mt-2 text-right">
 
             <p class="text-right">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home">
+                    <img id="org-footer" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home">
                 </a>
             </p>
             <p class="text-white" id="footer-credits">
