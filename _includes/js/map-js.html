@@ -8,6 +8,8 @@
 {% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/leaflet/leaflet.markercluster.freezable.js' | prepend: site.digital-assets }}"></script>{% endif %}
 
 <script>
+$('#ibpModal').modal('show');
+
 (function(){
     /* add collection map data */
     var geodata = { "type": "FeatureCollection", "features": [ 
