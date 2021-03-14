@@ -33,8 +33,8 @@ author: Robert Perret
 # Organization branding
 organization-name: "University of Idaho Library Special Collections and Archives"
 organization-link: https://www.lib.uidaho.edu/special-collections/
-organization-logo-banner: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
+organization-logo-banner: https://www.lib.uidaho.edu/media/digital/library_white.png #https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
+organization-logo-nav: https://www.lib.uidaho.edu/media/digital/library_white.png #https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
 
 ##########
 # COLLECTION SETTINGS
