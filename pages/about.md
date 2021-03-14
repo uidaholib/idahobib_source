@@ -20,12 +20,14 @@ Did he miss your favorite nonfiction book?
 Email <rperret@uidaho.edu> to let him know! 
 He is happy to add new books or update the list.
 
-<small>Last updated March 2021.</small>
-
-------
+## Creating the Website
 
 The items in this collection are based on the original [Idaho Bibliography Project site](https://www.lib.uidaho.edu/idahobibliography/legacy/).
 Book cover images and geo coordinates were added in 2021.
-The current site was designed by U of I librarian Evan Williamson using a [CollectionBuilder](https://collectionbuilder.github.io/) template.
+
+The current site was designed by U of I Digital Infrastructure Librarian Evan Peter Williamson using a [CollectionBuilder](https://collectionbuilder.github.io/) template.
+Metadata about each book drives the interactive browsing features, allowing users to discover Idaho history!
+
+Last updated March 2021.
 
 {% include feature/item-figure.html objectid="ibp1494" %}
