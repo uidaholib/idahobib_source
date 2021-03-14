@@ -53,7 +53,7 @@ subjects-stopwords: miscellaneous # set of subjects separated by ; that will be 
 # LOCATIONS PAGE
 #
 locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-locations-min: 1 # min size for subject cloud, too many terms = slow load time!
+locations-min: 0 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: "state of idaho" # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########

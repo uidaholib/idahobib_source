@@ -13,7 +13,7 @@ credits: false
 
 The Idaho Bibliography Project was created with the assistance of the John Calhoun Smith Grant to support Idaho History Day. 
 
-In 2016, University of Idaho Special Collections Librarian Robert Perret travelled to nearly every library, museum, and historical society in the state to discover every available book about Idaho history. 
+In 2016, [University of Idaho Special Collections](https://www.lib.uidaho.edu/special-collections/) Librarian Robert Perret travelled to nearly every library, museum, and historical society in the state to discover every available book about Idaho history. 
 Many are not cataloged anywhere else! 
 
 Did he miss your favorite nonfiction book? 
