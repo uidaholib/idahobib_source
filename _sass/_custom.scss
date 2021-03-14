@@ -9,3 +9,11 @@
 .navbar-brand.active {
     color: #F1B300;
 }
+/* footer tweak */
+footer .nav-link {
+    color: #fff;
+    &.active {
+        color: #F1B300;
+        text-decoration: underline;
+    }
+}
