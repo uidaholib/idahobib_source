@@ -53,7 +53,7 @@ metadata: idahobibproject
 #     filter: 'objectid'  
 
 # If using local folder, dir name with proceeding slash. If using external web location, provide full URL
-objects: https://lib.uidaho.edu/digital/objects/idahobib
+objects: https://www.lib.uidaho.edu/digital/objects/idahobib
 
 ##########
 # GOOGLE SERVICES [optional!]
