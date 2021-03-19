@@ -11,13 +11,13 @@ credits: false
 
 <p class="text-center h3 mb-3"><em>{{ site.tagline }}</em></p>
 
-The Idaho Bibliography Project is intended to provide a comprehensive list of nonfiction about the state of Idaho--presented in a browseable website that encourages you to discover the unique books written about the local history of your area.
+The Idaho Bibliography Project is intended to provide a comprehensive list of nonfiction about the state of Idaho--presented in a browseable website that encourages you to discover the unique books written about the history of your local area.
 The project was created with the assistance of the John Calhoun Smith Grant to support Idaho History Day.
 
 In 2016, [University of Idaho Special Collections](https://www.lib.uidaho.edu/special-collections/) Librarian Robert Perret travelled to nearly every library, museum, and historical society in the state to discover every available book about Idaho history. 
 Many are not cataloged anywhere else! 
 
-Did he miss your favorite nonfiction book? 
+Did he miss your favorite nonfiction Idaho history book? 
 Email <rperret@uidaho.edu> to let him know! 
 He is happy to add new books or update the list.
 
